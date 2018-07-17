@@ -6,6 +6,6 @@ com/fmachi/n26/statistics/domain/Statistics$StatisticsBuilder.class
 com/fmachi/n26/statistics/controllers/TransactionControllers.class
 com/fmachi/n26/statistics/controllers/StatisticsController.class
 com/fmachi/n26/statistics/StatisticsApplication.class
-com/fmachi/n26/statistics/domain/TransactionRepository.class
 com/fmachi/n26/statistics/domain/Transaction.class
+com/fmachi/n26/statistics/domain/TransactionRepository.class
 com/fmachi/n26/statistics/domain/Statistics.class

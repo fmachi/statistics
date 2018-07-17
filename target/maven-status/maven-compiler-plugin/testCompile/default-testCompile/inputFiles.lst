@@ -1,5 +1,6 @@
-/Users/filippo/Downloads/statistics/src/test/java/com/fmachi/n26/statistics/domain/TransactionTest.java
-/Users/filippo/Downloads/statistics/src/test/java/com/fmachi/n26/statistics/persistence/inmemory/InMemoryTransactionRepositoryTest.java
-/Users/filippo/Downloads/statistics/src/test/java/com/fmachi/n26/statistics/domain/StatisticsTest.java
-/Users/filippo/Downloads/statistics/src/test/java/com/fmachi/n26/statistics/StatisticsApplicationTests.java
-/Users/filippo/Downloads/statistics/src/test/java/com/fmachi/n26/statistics/persistence/inmemory/ThreadSafeTransactionRepositoryTest.java
+/Users/filippo/wed/data/ws/statistics/src/test/java/com/fmachi/n26/statistics/domain/TransactionTest.java
+/Users/filippo/wed/data/ws/statistics/src/test/java/com/fmachi/n26/statistics/dtos/StatisticsDTO.java
+/Users/filippo/wed/data/ws/statistics/src/test/java/com/fmachi/n26/statistics/StatisticsApplicationTests.java
+/Users/filippo/wed/data/ws/statistics/src/test/java/com/fmachi/n26/statistics/domain/StatisticsTest.java
+/Users/filippo/wed/data/ws/statistics/src/test/java/com/fmachi/n26/statistics/persistence/inmemory/InMemoryTransactionRepositoryTest.java
+/Users/filippo/wed/data/ws/statistics/src/test/java/com/fmachi/n26/statistics/persistence/inmemory/ThreadSafeTransactionRepositoryTest.java
