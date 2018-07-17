@@ -21,3 +21,4 @@ thread safe) that is used by the thread safe.
 # Things to improve
 
 - domain objects (Statistics and Transactions) are also used as DTO exposing domain
+- validation not performed on the DTO I could have used JSR 303
