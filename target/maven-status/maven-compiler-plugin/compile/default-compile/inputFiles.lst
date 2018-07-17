@@ -1,9 +1,0 @@
-/Users/filippo/wed/data/ws/statistics/src/main/java/com/fmachi/n26/statistics/domain/TransactionRepository.java
-/Users/filippo/wed/data/ws/statistics/src/main/java/com/fmachi/n26/statistics/domain/Statistics.java
-/Users/filippo/wed/data/ws/statistics/src/main/java/com/fmachi/n26/statistics/domain/Transaction.java
-/Users/filippo/wed/data/ws/statistics/src/main/java/com/fmachi/n26/statistics/controllers/StatisticsController.java
-/Users/filippo/wed/data/ws/statistics/src/main/java/com/fmachi/n26/statistics/configuration/RepositoryConfiguration.java
-/Users/filippo/wed/data/ws/statistics/src/main/java/com/fmachi/n26/statistics/persistence/inmemory/InMemoryTransactionRepository.java
-/Users/filippo/wed/data/ws/statistics/src/main/java/com/fmachi/n26/statistics/StatisticsApplication.java
-/Users/filippo/wed/data/ws/statistics/src/main/java/com/fmachi/n26/statistics/controllers/TransactionControllers.java
-/Users/filippo/wed/data/ws/statistics/src/main/java/com/fmachi/n26/statistics/persistence/inmemory/ThreadSafeTransactionRepository.java
