@@ -15,8 +15,3 @@ are expired.
 
 I decided to build the implementation with a simple InMemory Repository (not
 thread safe) that is used by the thread safe.
-
-
-
-
-git clone https://fmachi@github.com/fmachi/statistics.git
