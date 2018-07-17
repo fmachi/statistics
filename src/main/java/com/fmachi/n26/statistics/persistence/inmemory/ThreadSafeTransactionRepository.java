@@ -81,10 +81,10 @@ public class ThreadSafeTransactionRepository implements TransactionRepository {
             while (running.get()) {
                 Transaction transaction = getEventWithTimeout(timeout);
                 if (transaction != null) {
-                    log.info("Adding a new transaction");
+                    log.debug("Adding a new transaction");
                     innerRepository.addTransaction(transaction);
                 } else {
-                    log.info("Purging expired transaction");
+                    log.debug("Purging expired transaction");
                 }
                 innerRepository.purge();
 
@@ -97,7 +97,7 @@ public class ThreadSafeTransactionRepository implements TransactionRepository {
                 );
 
                 timeout = calculateTimeout(statistics.getMinTimestamp());
-                log.info("Timeout is {}", timeout);
+                log.debug("Timeout is {}", timeout);
             }
             log.info("Statistics updater ends");
         }
