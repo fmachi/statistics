@@ -1,5 +1,6 @@
 package com.fmachi.n26.statistics.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.ToString;
@@ -24,6 +25,7 @@ public class Statistics {
     @Builder.Default
     Integer count = 0;
     @Builder.Default
+    @JsonIgnore
     Long minTimestamp = 0l;
 
 
