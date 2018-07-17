@@ -66,6 +66,12 @@ public class ThreadSafeTransactionRepository implements TransactionRepository {
         return transactionCount.get();
     }
 
+    @Override
+    public void clear() {
+        statisticsHolder.set(Statistics.builder().build());
+        innerRepository.clear();
+    }
+
     class StatisticsUpdater implements Runnable {
 
         @Override

@@ -9,5 +9,7 @@ public interface TransactionRepository {
     void purge();
 
     int getTransactionCount();
+
+    void clear();
 }
 

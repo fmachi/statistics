@@ -3,11 +3,13 @@ package com.fmachi.n26.statistics.persistence.inmemory;
 import com.fmachi.n26.statistics.domain.Statistics;
 import com.fmachi.n26.statistics.domain.Transaction;
 import com.fmachi.n26.statistics.domain.TransactionRepository;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Slf4j
 public class InMemoryTransactionRepository implements TransactionRepository {
 
     private List<Transaction> transactions = new LinkedList<>();
@@ -39,5 +41,11 @@ public class InMemoryTransactionRepository implements TransactionRepository {
     @Override
     public int getTransactionCount() {
         return transactions.size();
+    }
+
+    @Override
+    public void clear() {
+        log.info("Clearing transactions");
+        transactions.clear();
     }
 }

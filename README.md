@@ -22,3 +22,4 @@ thread safe) that is used by the thread safe.
 
 - domain objects (Statistics and Transactions) are also used as DTO exposing domain
 - validation not performed on the DTO I could have used JSR 303
+- the clear method into the repository is not thread safe but is not supposed to be executed by the application logic
