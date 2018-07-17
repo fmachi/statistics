@@ -1,0 +1,5 @@
+com/fmachi/n26/statistics/persistence/inmemory/InMemoryTransactionRepositoryTest.class
+com/fmachi/n26/statistics/StatisticsApplicationTests.class
+com/fmachi/n26/statistics/domain/TransactionTest.class
+com/fmachi/n26/statistics/persistence/inmemory/ThreadSafeTransactionRepositoryTest.class
+com/fmachi/n26/statistics/domain/StatisticsTest.class

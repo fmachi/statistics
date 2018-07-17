@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.fmachi.n26.statistics.domain.TransactionTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.fmachi.n26.statistics.domain.TransactionTest

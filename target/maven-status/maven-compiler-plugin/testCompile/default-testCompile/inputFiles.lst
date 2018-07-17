@@ -1,0 +1,5 @@
+/Users/filippo/Downloads/statistics/src/test/java/com/fmachi/n26/statistics/domain/TransactionTest.java
+/Users/filippo/Downloads/statistics/src/test/java/com/fmachi/n26/statistics/persistence/inmemory/InMemoryTransactionRepositoryTest.java
+/Users/filippo/Downloads/statistics/src/test/java/com/fmachi/n26/statistics/domain/StatisticsTest.java
+/Users/filippo/Downloads/statistics/src/test/java/com/fmachi/n26/statistics/StatisticsApplicationTests.java
+/Users/filippo/Downloads/statistics/src/test/java/com/fmachi/n26/statistics/persistence/inmemory/ThreadSafeTransactionRepositoryTest.java
